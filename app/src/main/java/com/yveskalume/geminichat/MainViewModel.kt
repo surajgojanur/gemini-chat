@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 class MainViewModel : ViewModel() {
 
     // set your API key here
-    private val apiKey = ""
+    private val apiKey = "AIzaSyDtkotAm_4SZTW_In0-uYoIbkkbvzxdYCk"
 
     private val geneminiProModel by lazy {
         GenerativeModel(
